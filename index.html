@@ -91,7 +91,9 @@ footer{border-top:1px solid var(--line);padding:30px 0 45px;color:var(--muted);f
 
 <section id="kontakt">
   <div class="section-head"><h2>Złóż zapytanie</h2><p>Opisz krótko, jakiej strony potrzebujesz. Odpowiem z propozycją.</p></div>
-  <form action="https://formspree.io/f/xdekqvjb" method="POST" id="contactForm">
+  <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+  <input type="hidden" name="access_key" value="003d3d3e-9b83-4aae-83cb-93b584eb25e4">
+
 
     <div class="row">
       <div class="field"><label for="name">Imię</label><input id="name" required></div>
