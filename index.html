@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TotiStrony — Strony internetowe od 250 zł</title>
+<meta name="description" content="Projektowanie prostych, nowoczesnych stron internetowych dla osób prywatnych i firm. Od 250 zł.">
+<style>
+:root{--bg:#08090c;--card:#11141a;--card2:#171b23;--text:#f5f7fb;--muted:#a9b0bd;--line:#252b35;--accent:#7c5cff;--accent2:#9a82ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 22px}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.logo{font-size:22px;font-weight:800;letter-spacing:-.5px}.logo span{color:var(--accent2)}
+.navlinks{display:flex;gap:25px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}
+.hero{padding:92px 0 70px;text-align:center}.eyebrow{display:inline-block;border:1px solid #30275b;background:#141025;color:#b8aaff;border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-3px;margin:22px auto 20px;max-width:850px}
+.hero p{max-width:690px;margin:0 auto;color:var(--muted);font-size:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:13px 20px;font-weight:750;border:1px solid var(--line);margin-top:28px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn.primary:hover{background:var(--accent2)}
+section{padding:70px 0}.section-head{margin-bottom:30px}.section-head h2{font-size:36px;letter-spacing:-1.3px;margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px}.card.featured{border-color:#5140a4;box-shadow:0 0 0 1px #33286b inset}
+.tag{display:inline-block;font-size:12px;color:#c7bcff;background:#1a1530;border-radius:999px;padding:5px 9px;font-weight:800}.price{font-size:46px;font-weight:850;letter-spacing:-2px;margin:12px 0 2px}.price small{font-size:15px;color:var(--muted);font-weight:500;letter-spacing:0}.card h3{font-size:23px;margin:5px 0}.card p{color:var(--muted)}ul{padding:0;list-style:none;margin:20px 0 0}li{padding:9px 0;border-top:1px solid var(--line);color:#d9dde5}li:before{content:"✓";color:#9a82ff;font-weight:900;margin-right:9px}
+.addon{margin-top:20px;background:linear-gradient(135deg,#151225,#11141a);border:1px solid #352d61;border-radius:20px;padding:25px;display:flex;justify-content:space-between;gap:20px;align-items:center}.addon strong{font-size:22px}.addon span{color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}.num{width:34px;height:34px;border-radius:10px;background:#211b40;color:#b9adff;display:grid;place-items:center;font-weight:800}.step h3{margin:14px 0 6px}.step p{color:var(--muted);margin:0}
+form{max-width:760px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px}.row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{margin-bottom:16px}.field label{display:block;font-size:14px;font-weight:700;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;background:#0b0d11;color:white;border:1px solid var(--line);border-radius:11px;padding:13px;font:inherit;outline:none}.field textarea{min-height:130px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:#6754d4}
+.note{font-size:13px;color:var(--muted);margin-top:12px}.success{display:none;margin-top:15px;color:#b9ffcf}
+footer{border-top:1px solid var(--line);padding:30px 0 45px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between}
+@media(max-width:720px){.navlinks{display:none}.hero{padding-top:65px}.grid,.steps,.row{grid-template-columns:1fr}.addon{display:block}.addon .btn{margin-top:15px}h1{letter-spacing:-2px}.price{font-size:40px}footer{display:block}footer div+div{margin-top:8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="logo" href="#">Toti<span>Strony</span></a>
+  <div class="navlinks"><a href="#oferta">Oferta</a><a href="#jak">Jak to działa</a><a href="#kontakt">Kontakt</a></div>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">STRONY INTERNETOWE • OD 250 ZŁ</div>
+  <h1>Twoja własna strona internetowa bez zbędnego kombinowania.</h1>
+  <p>Projektuję proste, nowoczesne strony dla osób prywatnych i firm. Ty opisujesz, czego potrzebujesz — ja przygotowuję stronę.</p>
+  <a class="btn primary" href="#kontakt">Złóż zapytanie</a>
+</header>
+
+<section id="oferta">
+  <div class="section-head"><h2>Oferta</h2><p>Dwa proste pakiety na start. Dodatkowe funkcje możesz dobrać później.</p></div>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">DLA OSOBY PRYWATNEJ</span>
+      <h3>Pakiet Klasyczny</h3>
+      <div class="price">250 zł <small>jednorazowo</small></div>
+      <p>Podstawowa, estetyczna strona dopasowana do Twojego pomysłu — np. portfolio, wizytówka, strona o hobby lub własnej działalności.</p>
+      <ul>
+        <li>indywidualny projekt strony</li>
+        <li>wersja na telefon i komputer</li>
+        <li>sekcje z tekstem i zdjęciami</li>
+        <li>przycisk kontaktowy / dane kontaktowe</li>
+        <li>jedna runda podstawowych poprawek</li>
+      </ul>
+      <a class="btn primary" href="#kontakt">Zapytaj o stronę</a>
+    </article>
+    <article class="card featured">
+      <span class="tag">DLA FIRMY</span>
+      <h3>Pakiet Firmowy</h3>
+      <div class="price">500 zł <small>jednorazowo</small></div>
+      <p>Pełniejsza strona firmowa przygotowana tak, aby klient od razu wiedział, czym zajmuje się firma i jak się z nią skontaktować.</p>
+      <ul>
+        <li>indywidualny projekt strony</li>
+        <li>wersja mobilna i desktopowa</li>
+        <li>oferta / usługi / realizacje</li>
+        <li>formularz kontaktowy</li>
+        <li>mapa lub sekcja lokalizacji</li>
+        <li>podstawowe przygotowanie pod wyszukiwarki</li>
+      </ul>
+      <a class="btn primary" href="#kontakt">Zamów stronę firmową</a>
+    </article>
+  </div>
+  <div class="addon">
+    <div><strong>Pakiet dodatkowych udogodnień — od 1000 zł</strong><br><span>Rozszerzenia wyceniane zależnie od projektu, np. rozbudowane funkcje, dodatkowe podstrony, bardziej zaawansowane elementy lub integracje.</span></div>
+    <a class="btn" href="#kontakt">Zapytaj o wycenę</a>
+  </div>
+</section>
+
+<section id="jak">
+  <div class="section-head"><h2>Jak to działa?</h2><p>Bez skomplikowanych procedur.</p></div>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Opowiadasz o pomyśle</h3><p>Wypełniasz formularz i piszesz, czego potrzebujesz.</p></div>
+    <div class="step"><div class="num">2</div><h3>Ustalamy szczegóły</h3><p>Ustalamy wygląd, zakres strony i ewentualne dodatki.</p></div>
+    <div class="step"><div class="num">3</div><h3>Powstaje strona</h3><p>Przygotowuję projekt i przekazuję Ci gotową stronę.</p></div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="section-head"><h2>Złóż zapytanie</h2><p>Opisz krótko, jakiej strony potrzebujesz. Odpowiem z propozycją.</p></div>
+  <form id="contactForm">
+    <div class="row">
+      <div class="field"><label for="name">Imię</label><input id="name" required></div>
+      <div class="field"><label for="email">E-mail</label><input id="email" type="email" required></div>
+    </div>
+    <div class="row">
+      <div class="field"><label for="type">Rodzaj strony</label>
+        <select id="type"><option>Strona prywatna — 250 zł</option><option>Strona firmowa — 500 zł</option><option>Pakiet dodatkowych udogodnień — od 1000 zł</option><option>Nie wiem jeszcze</option></select>
+      </div>
+      <div class="field"><label for="budget">Budżet</label>
+        <select id="budget"><option>Do 250 zł</option><option>250–500 zł</option><option>500–1000 zł</option><option>Powyżej 1000 zł</option></select>
+      </div>
+    </div>
+    <div class="field"><label for="message">Opisz swoją stronę</label><textarea id="message" placeholder="Czym się zajmujesz? Co ma być na stronie? Masz logo lub zdjęcia?"></textarea></div>
+    <button class="btn primary" type="submit">Wyślij zapytanie</button>
+    <div class="note">Po kliknięciu otworzy się Twoja aplikacja pocztowa z gotową wiadomością.</div>
+    <div class="success" id="success">Gotowe — przygotowałem wiadomość do wysłania.</div>
+  </form>
+</section>
+
+<footer><div>© 2026 TotiStrony</div><div>Strony internetowe od 250 zł</div></footer>
+</div>
+<script>
+const form=document.getElementById('contactForm');
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  // ZMIEŃ TEN ADRES NA SWÓJ E-MAIL PRZED PUBLIKACJĄ:
+  const ownerEmail='TWOJ_EMAIL_TUTAJ@example.com';
+  const name=document.getElementById('name').value;
+  const email=document.getElementById('email').value;
+  const type=document.getElementById('type').value;
+  const budget=document.getElementById('budget').value;
+  const message=document.getElementById('message').value;
+  const subject=encodeURIComponent('Zapytanie o stronę — '+type);
+  const body=encodeURIComponent(`Imię: ${name}\nE-mail: ${email}\nRodzaj strony: ${type}\nBudżet: ${budget}\n\nOpis:\n${message}`);
+  window.location.href=`mailto:${ownerEmail}?subject=${subject}&body=${body}`;
+  document.getElementById('success').style.display='block';
+});
+</script>
+</body>
+</html>
